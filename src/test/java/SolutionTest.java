@@ -23,4 +23,19 @@ public class SolutionTest {
         String result = "Tie";
         Assert.assertEquals(result, new Solution().stoneGameIII(values));
     }
+
+    @Test
+    public void stoneGameIIITest4() {
+        int[] values = {-2};
+        String result = "Bob";
+        Assert.assertEquals(result, new Solution().stoneGameIII(values));
+    }
+
+    @Test
+    public void stoneGameIIITest5() {
+        int[] values = {-1,-2,-3};
+        String result = "Tie";
+        Assert.assertEquals(result, new Solution().stoneGameIII(values));
+    }
+
 }
